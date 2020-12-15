@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "tslint-consistent-codestyle",
+    "tslint-immutable",
+    "tslint:recommended",
+    "tslint-no-unused-expression-chai"
+  ],
+  "rules": {
+
+    "indent": [true, "spaces", 4],
+    "quotemark": [true, "single", "avoid-escape"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "interface-name": [true, "never-prefix"],
+    "member-access": [true, "no-public"],
+    "curly": [true, "ignore-same-line"],
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    }
+  }
+}

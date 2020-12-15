@@ -1,0 +1,23 @@
+{
+  "name": "launch-party",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/launch-party-test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.9.0"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.0.10",
+    "@types/mocha": "^5.2.6",
+    "assert": "^1.4.1",
+    "mocha": "^6.1.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
